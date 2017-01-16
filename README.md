@@ -1,4 +1,4 @@
-# JS patterns
+# JS patterns sample
 
 With Bower and requireJS (AMD)
 
@@ -9,4 +9,4 @@ With Bower and requireJS (AMD)
 - [x] PubSub
 - [x] Observer
 - [x] Mixin
-- [x] Mediator
+- [] Mediator
