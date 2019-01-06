@@ -1,6 +1,6 @@
 # JavaScript design patterns 
 
-Here you will find design patterns implemented in JavaScript. 
+Here you will find most usefull (in my opinion) design patterns implemented in JavaScript. Enjoy! :)
 
 ## Creational
 
