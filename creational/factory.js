@@ -1,103 +1,62 @@
 /*
 
-Factory Pattern is class-based creational pattern.
-It provides a generic interface that delegates the responsibility of object instantiation to its subclasses.
-
-This pattern is used when we need to manage or manipulate collections of objects that are different yet have many similar characteristics.
+Factory  define an interface for creating a single object, but let subclasses decide which class to instantiate.
+Factory Method lets a class defer instantiation to subclasses.
 
 */
 
 /* ES6 */
 
-class BallFactory {
-    constructor() {
-        this.createBall = function(type) {
+class BmwFactory {
 
-            let ball;
-            if (type === 'football' || type === 'soccer') ball = new Football();
-            else if (type === 'basketball') ball = new Basketball();
-
-
-            ball.roll = function() {
-                return `The ${this._type} is rolling.`;
-            };
-
-            return ball;
-        };
+    create(type) {
+        if (type === 'X5')
+            return new Bmw(type, 108000, 300); //factory method define what to run before return
+        if (type === 'X6')
+            return new Bmw(type, 111000, 320);  //factory method define what to run before return
     }
 }
 
-class Football {
-    constructor() {
-        this._type = 'football';
-        this.kick = function() {
-            return 'You kicked the football.';
-        };
+class Bmw {
+    constructor(model, price, maxSpeed) {
+        this.model = model;
+        this.price = price;
+        this.maxSpeed = maxSpeed;
     }
 }
 
-class Basketball {
-    constructor() {
-        this._type = 'basketball';
-        this.bounce = function() {
-            return 'You bounced the basketball.';
-        };
-    }
-}
+const factory = new BmwFactory();
 
-// creating objects
-const factory = new BallFactory();
+const bmwX5 = factory.create('X5');
+const bmwX6 = factory.create('X6');
 
-const myFootball = factory.createBall('football');
-const myBasketball = factory.createBall('basketball');
+console.log(bmwX6.model); //X6
+console.log(bmwX5.model); //X5
 
-console.log(myFootball.roll()); // The football is rolling.
-console.log(myBasketball.roll()); // The basketball is rolling.
 
 /* ES5  */
 
-var BallFactory = function BallFactory() {
+function bmwFactory(type) {
+    if (type === 'X5')
+        return new Bmw(type, 108000, 300);
+    if (type === 'X6')
+        return new Bmw(type, 111000, 320);
+}
 
-    this.createBall = function (type) {
+function Bmw(model, price, maxSpeed) {
+    this.model = model;
+    this.price = price;
+    this.maxSpeed = maxSpeed;
+}
 
-        var ball = undefined;
+var factory = new BmwFactory();
 
-        if (type === 'football' || type === 'soccer') ball = new Football();
-        else if (type === 'basketball') ball = new Basketball();
+var bmwX5 = factory.create('X5');
+var bmwX6 = factory.create('X6');
 
-        ball.roll = function () {
-            return 'The ' + this._type + ' is rolling.';
-        };
+console.log(bmwX6.model); //X6
+console.log(bmwX5.model); //X5
 
-        return ball;
-    };
-};
-
-var Football = function Football() {
-
-    this._type = 'football';
-    this.kick = function () {
-        return 'You kicked the football.';
-    };
-};
-
-var Basketball = function Basketball() {
-        this._type = 'basketball';
-        this.bounce = function () {
-            return 'You bounced the basketball.';
-        };
-    }
-
-// creating objects
-;
-
-var factory = new BallFactory();
-
-var myFootball = factory.createBall('football');
-var myBasketball = factory.createBall('basketball');
-
-console.log(myFootball.roll()); // The football is rolling.
-console.log(myBasketball.roll()); // The basketball is rolling.
 
 
 

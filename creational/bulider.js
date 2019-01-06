@@ -1,0 +1,7 @@
+/*
+
+Singleton is a  creational design pattern where only one instance of a class can exist.
+If no instance of the singleton class exists then a new instance is created and returned
+but if an instance already exists then the reference to the existing instance is returned.
+
+*/
