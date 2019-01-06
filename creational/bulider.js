@@ -42,7 +42,7 @@ console.log(
         .withName('Harry Potter')
         .withCategory('book')
         .build()
-)
+);
 
 // =>
 //    {
@@ -91,7 +91,8 @@ console.log(
         .withName('Harry Potter')
         .withCategory('book')
         .build()
-)
+);
+
 // =>
 //    {
 //      name: 'Harry Potter',

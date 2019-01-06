@@ -14,7 +14,7 @@ Here you will find design patterns implemented in JavaScript.
 
 ## Structural
 
-Adapter
+* [Adapter](structural/adapter.js) 
 Bridge
 Composite
 Decorator

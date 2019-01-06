@@ -1,0 +1,5 @@
+/*
+Adapter Pattern
+
+
+*/
