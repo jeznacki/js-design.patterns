@@ -24,16 +24,19 @@ Here you will find design patterns implemented in JavaScript.
 
 ## Behavioral
 
-* Chain Of Resp
-* Command
-* Interpreter
-* Iterator
-* Mediator
+* [Chain Of Resp](behavioral/chain-of-resp.js)
+* [Command](behavioral/command.js)
+* [Iterator](behavioral/iterator.js)
+* [Observer](behavioral/observer.js)
+* [Visitor](behavioral/visitor.js)
+* [Mediator](behavioral/mediator.js)
+
 * Memento
-* Observer
 * State
 * Strategy
 * Template
-* Visitor
+
+* Pub/Sub
+* Mixin
 
 
