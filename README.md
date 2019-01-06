@@ -6,6 +6,7 @@ Here you will find design patterns implemented in JavaScript.
 
 * [Constructor](creational/constructor.js) 
 * [Factory](creational/factory.js) 
+* [Prototype](creational/prototype.js) 
 
 
  
