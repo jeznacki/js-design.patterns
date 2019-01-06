@@ -22,9 +22,9 @@ Here you will find design patterns implemented in JavaScript.
 You can use lnks to quicky overview the examples
 
 
-[Creational Patterns] | Structural Patterns | Behavioral Patterns
+[Creational Patterns](#creational-patterns) | Structural Patterns | Behavioral Patterns
 ------------ | ------------- | -------------
-[Chain Of Resp] | Abstract Factory |Adapter
+[Chain Of Resp](#chain-of-resp) | Abstract Factory |Adapter
 Command |  Builder | Bridge
 Interpreter | Factory | Composite
 Iterator | Prototype | Decorator
