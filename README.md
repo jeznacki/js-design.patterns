@@ -30,13 +30,8 @@ Here you will find design patterns implemented in JavaScript.
 * [Observer](behavioral/observer.js)
 * [Visitor](behavioral/visitor.js)
 * [Mediator](behavioral/mediator.js)
+* [Memento](behavioral/memento.js)
+* [State](behavioral/state.js)
 
-* Memento
-* State
-* Strategy
-* Template
-
-* Pub/Sub
-* Mixin
 
 
