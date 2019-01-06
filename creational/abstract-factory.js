@@ -7,8 +7,8 @@ dependent objects without specifying their concrete classes.
 
 /* ES5 */
 function droidProducer(kind) {
-    if (kind === 'battle') return battleDroidFactory;  //abstarct factory is not specifying anything
-    return pilotDroidFactory; //abstarct factory is not specifying anything
+    if (kind === 'battle') return battleDroidFactory;  //abstarct factory is not specifying anything - see factory method
+    return pilotDroidFactory; //abstarct factory is not specifying anything -  see factory method
 }
 
 function battleDroidFactory() {
