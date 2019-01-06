@@ -8,8 +8,6 @@ but if an instance already exists then the reference to the existing instance is
 
 
 // The following piece of code is a JavaScript developer's daily usage of the Singleton.
-
-
 var singelton = {
     publicVariable: 'Public Variable',
     publicMethod : function () {

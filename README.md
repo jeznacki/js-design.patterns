@@ -8,14 +8,9 @@ Here you will find design patterns implemented in JavaScript.
 * [Factory](creational/factory.js) 
 * [Prototype](creational/prototype.js) 
 * [Singelton](creational/singelton.js) 
+* [Abstract Factory](creational/abstract-factory.js) 
+* [Builder](creational/bulider.js)
 
-
- 
-Abstract Factory
-Builder
-Factory
-Prototype
-Singleton
 
 ## Structural
 
