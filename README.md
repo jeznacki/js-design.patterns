@@ -38,9 +38,12 @@ Visitor |
 
 ## Creational Patterns
 
-###Chain Of Resp
+### Chain Of Resp
 
-###Command
-###Interpreter
-###Iterator
-###Mediator
+### Command
+
+### Interpreter
+
+### Iterator
+
+### Mediator
