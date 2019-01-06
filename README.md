@@ -1,12 +1,14 @@
-# JS patterns sample
+# JavaScript design patterns 
 
-With Bower and requireJS (AMD)
+Here you will find design patterns implemented in JavaScript. 
+You can use the [**index.md**](docs/index.md) to quicky overview the examples
+
+### Creational Patterns
 
 
-### Contain:
+### Structural Patterns
 
-- [x] Factory pattern
-- [x] PubSub
-- [x] Observer
-- [x] Mixin
-- [] Mediator
+
+
+### Behavioral Patterns
+
