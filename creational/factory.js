@@ -1,7 +1,4 @@
 /*
-==== Creational Patterns =====
-
-## Factory Pattern
 
 Factory Pattern is class-based creational pattern.
 It provides a generic interface that delegates the responsibility of object instantiation to its subclasses.
