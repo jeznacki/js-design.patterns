@@ -16,9 +16,15 @@ function fancyAlert(arg) {
 }
 ```
 
-Creational Patterns | Structural Patterns | Behavioral Patterns
+# JavaScript design patterns 
+
+Here you will find design patterns implemented in JavaScript. 
+You can use lnks to quicky overview the examples
+
+
+[Creational Patterns] | Structural Patterns | Behavioral Patterns
 ------------ | ------------- | -------------
-Chain Of Resp | Abstract Factory |Adapter
+[Chain Of Resp] | Abstract Factory |Adapter
 Command |  Builder | Bridge
 Interpreter | Factory | Composite
 Iterator | Prototype | Decorator
@@ -30,8 +36,11 @@ Strategy |
 Template |
 Visitor |
 
-# JavaScript design patterns 
+## Creational Patterns
 
-Here you will find design patterns implemented in JavaScript. 
-You can use lnks to quicky overview the examples
+###Chain Of Resp
 
+###Command
+###Interpreter
+###Iterator
+###Mediator
