@@ -17,12 +17,10 @@ Here you will find design patterns implemented in JavaScript.
 * [Adapter](structural/adapter.js) 
 * [Bridge](structural/bridge.js) 
 * [Composite](structural/composite.js) 
-
-Composite
-Decorator
-Facade
-Flyweight
-Proxy
+* [Decorator](structural/decorator.js)
+* [Facade](structural/facade.js)
+* [Flyweight](structural/flyweight.js)
+* [Proxy](structural/proxy.js)
 
 ## Behavioral
 
