@@ -1,3 +1,12 @@
+/*
+
+## Constructor Pattern
+
+This is a class-based creational design pattern. 
+Constructors are special functions that can be used to instantiate new objects with methods and properties defined by that function.
+
+*/
+
 
 // traditional Function-based syntax
 function Hero(name, specialAbility) {
