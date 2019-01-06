@@ -17,44 +17,21 @@ function fancyAlert(arg) {
 ```
 
 Creational Patterns | Structural Patterns | Behavioral Patterns
------------- | ------------- |  ------------- 
+------------ | ------------- | -------------
 Chain Of Resp | Abstract Factory |Adapter
-Command |  Builder | Adapter
+Command |  Builder | Bridge
+Interpreter | Factory | Composite
+Iterator | Prototype | Decorator
+Mediator | Singleton | Facade
+Memento | | Flyweight
+Observer | | Proxy
+State |
+Strategy |
+Template |
+Visitor |
 
 # JavaScript design patterns 
 
 Here you will find design patterns implemented in JavaScript. 
 You can use lnks to quicky overview the examples
 
-### 
-
-* 
-* 
-* 
-* 
-* 
-* 
-* Observer
-* State
-* Strategy
-* Template
-* Visitor
-
-
-### 
-
-* 
-* 
-* Factory
-* Prototype
-* Singleton
-
-### 
-
-* 
-* Bridge
-* Composite
-* Decorator
-* Facade
-* Flyweight
-* Proxy
