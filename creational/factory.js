@@ -1,7 +1,7 @@
 /*
 
 Factory  define an interface for creating a single object, but let subclasses decide which class to instantiate.
-Factory Method lets a class defer instantiation to subclasses.
+Factory  lets a class defer instantiation to subclasses.
 
 */
 
