@@ -5,6 +5,7 @@ Here you will find design patterns implemented in JavaScript.
 ## Creational
 
 [Constructor](creational/constructor.js) 
+[Factory](creational/factory.js)  
 Abstract Factory
 Builder
 Factory
@@ -34,3 +35,5 @@ State
 Strategy
 Template
 Visitor
+
+
