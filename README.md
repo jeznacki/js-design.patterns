@@ -16,29 +16,24 @@ function fancyAlert(arg) {
 }
 ```
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-
-
+Creational Patterns | Structural Patterns | Behavioral Patterns
+------------ | ------------- |  ------------- 
+Chain Of Resp | Abstract Factory |Adapter
+Command |  Builder | Adapter
 
 # JavaScript design patterns 
 
 Here you will find design patterns implemented in JavaScript. 
-You can use the [**index.md**](docs/index.md) to quicky overview the examples
+You can use lnks to quicky overview the examples
 
-### Creational Patterns
+### 
 
-* Chain Of Resp
-  * Here you will find design patterns implemented in JavaScript. 
-
-* Command
-* Interpreter
-* Iterator
-* Mediator
-* Memento
+* 
+* 
+* 
+* 
+* 
+* 
 * Observer
 * State
 * Strategy
@@ -46,17 +41,17 @@ You can use the [**index.md**](docs/index.md) to quicky overview the examples
 * Visitor
 
 
-### Structural Patterns
+### 
 
-* Abstract Factory
-* Builder
+* 
+* 
 * Factory
 * Prototype
 * Singleton
 
-### Behavioral Patterns
+### 
 
-* Adapter
+* 
 * Bridge
 * Composite
 * Decorator
